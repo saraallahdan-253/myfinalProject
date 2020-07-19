@@ -1,0 +1,88 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/androidmobile11"
+    android:orientation="vertical"
+    tools:context=".rentsDetails">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        >
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+
+            <TextView
+                android:id="@+id/detailsLocation"
+                android:layout_width="372dp"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="20dp"
+                android:layout_marginTop="40dp"
+                android:text="TextView"
+                android:textSize="50sp" />
+
+            <ImageView
+                android:id="@+id/detailsImage"
+                android:layout_width="386dp"
+                android:layout_height="257dp"
+                android:layout_marginLeft="15dp"
+                tools:srcCompat="@tools:sample/avatars" />
+
+            <TextView
+                android:id="@+id/detailsPrice"
+                android:layout_width="221dp"
+                android:layout_height="67dp"
+                android:layout_marginLeft="150dp"
+                android:text="TextView"
+                android:textColor="#5C2BC8"
+                android:textSize="35sp" />
+
+            <TextView
+                android:id="@+id/detailsSpace"
+                android:layout_width="221dp"
+                android:layout_height="67dp"
+                android:layout_marginLeft="150dp"
+                android:layout_marginBottom="20dp"
+                android:text="TextView"
+                android:textColor="#497195"
+                android:textSize="35sp" />
+
+            <TextView
+                android:id="@+id/detailsdDetails"
+                android:layout_width="353dp"
+                android:layout_height="149dp"
+                android:layout_marginLeft="50dp"
+                android:text="text view"
+                android:textColor="#7B8D95"
+                android:textSize="35sp" />
+
+            <TextView
+                android:id="@+id/detailtextview"
+                android:layout_width="221dp"
+                android:layout_height="67dp"
+                android:layout_marginLeft="150dp"
+                android:text="للتواصل :"
+                android:textSize="35sp" />
+
+            <TextView
+                android:id="@+id/detailsPhone"
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:layout_marginLeft="110dp"
+                android:text="999999999"
+                android:autoLink="all"
+                android:clickable="true"
+                android:textColor="#35B6F3"
+                android:textSize="35sp" />
+
+        </LinearLayout>
+    </ScrollView>
+
+</LinearLayout>

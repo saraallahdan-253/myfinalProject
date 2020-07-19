@@ -1,0 +1,79 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".logInPage">
+
+    <ImageView
+        android:id="@+id/imageView2"
+        android:layout_width="277dp"
+        android:layout_height="139dp"
+        android:layout_marginLeft="70dp"
+        android:layout_marginTop="40dp"
+        app:srcCompat="@drawable/screenshot_41" />
+
+    <TextView
+        android:id="@+id/packGround"
+        android:layout_width="363dp"
+        android:layout_height="342dp"
+        android:layout_marginLeft="25dp"
+        android:layout_marginTop="350dp"
+        android:background="@drawable/graybutton"
+        android:text="" />
+
+    <ImageView
+        android:id="@+id/imageView3"
+        android:layout_width="255dp"
+        android:layout_height="62dp"
+        android:layout_marginLeft="80dp"
+        android:layout_marginTop="360dp"
+        app:srcCompat="@drawable/screenshot_45" />
+
+    <EditText
+        android:id="@+id/email_editText2"
+        android:layout_width="267dp"
+        android:layout_height="58dp"
+        android:layout_marginLeft="80dp"
+        android:layout_marginTop="435dp"
+        android:hint="  البريد الالكتروني"
+        android:textSize="25dp"
+        android:inputType="textEmailAddress"
+        android:background="@drawable/graybluebutton"/>
+
+
+
+    <EditText
+        android:id="@+id/pass_editText2"
+        android:layout_width="267dp"
+        android:layout_height="58dp"
+        android:layout_marginLeft="80dp"
+        android:layout_marginTop="510dp"
+        android:hint="  كلمة السر"
+        android:textSize="25dp"
+        android:inputType="textVisiblePassword"
+        android:background="@drawable/graybluebutton"/>
+
+
+    <Button
+        android:id="@+id/button3"
+        android:layout_width="128dp"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="150dp"
+        android:layout_marginTop="590dp"
+        android:text="تسجيل"
+        android:textSize="20dp"
+        android:textColor="#F839D1"
+        android:background="@drawable/pinkbutton"/>
+
+    <Button
+        android:id="@+id/logInImageview"
+        android:layout_width="165dp"
+        android:layout_height="33dp"
+        android:layout_marginLeft="60dp"
+        android:layout_marginTop="660dp"
+        android:background="@drawable/screenshot_42" />
+
+
+</RelativeLayout>

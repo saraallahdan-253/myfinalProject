@@ -1,0 +1,173 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#FFFFFF"
+    android:backgroundTint="#FFFFFF"
+    tools:context=".Price">
+
+    <ScrollView
+        android:id="@+id/scrollView2"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:background="@drawable/androidmobile11">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <TextView
+                android:id="@+id/textView4"
+                android:layout_width="match_parent"
+                android:layout_height="70dp"
+                android:layout_marginTop="10dp"
+                android:layout_marginBottom="20dp"
+                android:text="    تكلفة البناء التقديريه:"
+                android:textColor="#9F6181"
+                android:textSize="45sp" />
+
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent">
+
+                <TextView
+                    android:id="@+id/textView2"
+                    android:layout_width="349dp"
+                    android:layout_height="207dp"
+                    android:layout_marginLeft="30dp"
+                    android:layout_marginBottom="30dp"
+                    android:background="#618EA7F4"
+                    android:padding="70dp"
+                    android:paddingRight="20dp"
+                    android:text=""
+                    android:textColor="#FFFFFF"
+                    android:textSize="49dp" />
+
+                <TextView
+                    android:id="@+id/textView18"
+                    android:layout_width="102dp"
+                    android:layout_height="99dp"
+                    android:layout_alignParentEnd="true"
+                    android:layout_marginTop="70dp"
+                    android:layout_marginEnd="312dp"
+                    android:text="د.ك"
+                    android:textColor="#FFFFFF"
+                    android:textSize="55sp" />
+            </RelativeLayout>
+
+            <TextView
+                android:id="@+id/textView5"
+                android:layout_width="match_parent"
+                android:layout_height="70dp"
+                android:layout_marginBottom="20dp"
+                android:background="#2F6666F8"
+                android:padding="10dp"
+                android:text="  يتم توزيع المبلغ بنسب مختلفه:"
+                android:textColor="#6269F4"
+                android:textSize="30sp" />
+
+            <TextView
+                android:id="@+id/textView7"
+                android:layout_width="362dp"
+                android:layout_height="61dp"
+                android:layout_marginLeft="20sp"
+                android:layout_marginBottom="5dp"
+                android:background="@drawable/graybutton"
+                android:padding="4dp"
+                android:text="              تجهيز الموقع"
+                android:textColor="#9E91B8"
+                android:textSize="29sp" />
+
+            <TextView
+                android:id="@+id/textView6"
+                android:layout_width="362dp"
+                android:layout_height="61dp"
+                android:layout_marginLeft="20sp"
+                android:layout_marginBottom="5dp"
+                android:background="@drawable/graybutton"
+                android:padding="4dp"
+                android:text="             المكتب الهندسي"
+                android:textColor="#FF9E91B8"
+                android:textSize="29sp" />
+
+            <TextView
+                android:id="@+id/textView8"
+                android:layout_width="362dp"
+                android:layout_height="61dp"
+                android:layout_marginLeft="20sp"
+                android:layout_marginBottom="5dp"
+                android:background="@drawable/graybutton"
+                android:padding="4dp"
+                android:text="            ألاعمال المدنيه"
+                android:textColor="#FF9E91B8"
+                android:textSize="29sp" />
+
+            <TextView
+                android:id="@+id/textView9"
+                android:layout_width="362dp"
+                android:layout_height="61dp"
+                android:layout_marginLeft="20sp"
+                android:layout_marginBottom="5dp"
+                android:background="@drawable/graybutton"
+                android:padding="4dp"
+                android:text="             العزل"
+                android:textColor="#FF9E91B8"
+                android:textSize="29sp" />
+
+            <TextView
+                android:id="@+id/textView10"
+                android:layout_width="362dp"
+                android:layout_height="61dp"
+                android:layout_marginLeft="20sp"
+                android:layout_marginBottom="5dp"
+                android:background="@drawable/graybutton"
+                android:padding="4dp"
+                android:text="            الخرسانه والطابوق"
+                android:textColor="#FF9E91B8"
+                android:textSize="29sp" />
+
+            <TextView
+                android:id="@+id/textView11"
+                android:layout_width="362dp"
+                android:layout_height="61dp"
+                android:layout_marginLeft="20sp"
+                android:layout_marginBottom="5dp"
+                android:background="@drawable/graybutton"
+                android:padding="4dp"
+                android:text="          الميكانيكيه والكهربائيه"
+                android:textColor="#FF9E91B8"
+                android:textSize="29sp" />
+
+            <TextView
+                android:id="@+id/textView12"
+                android:layout_width="362dp"
+                android:layout_height="61dp"
+                android:layout_marginLeft="20sp"
+                android:layout_marginBottom="5dp"
+                android:background="@drawable/graybutton"
+                android:padding="4dp"
+                android:text="          التشطيبات"
+                android:textColor="#FF9E91B8"
+                android:textSize="29sp" />
+
+            <TextView
+                android:id="@+id/textView13"
+                android:layout_width="362dp"
+                android:layout_height="61dp"
+                android:layout_marginLeft="20sp"
+                android:layout_marginBottom="10dp"
+                android:background="@drawable/graybutton"
+                android:padding="4dp"
+                android:text="          الارتداد الخارجي"
+                android:textColor="#FF9E91B8"
+                android:textSize="29sp" />
+
+        </LinearLayout>
+    </ScrollView>
+
+</RelativeLayout>

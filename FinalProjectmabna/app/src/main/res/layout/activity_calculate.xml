@@ -1,0 +1,83 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/androidmobilee"
+    tools:context=".calculate">
+
+    <TextView
+        android:id="@+id/enterSpace"
+        android:layout_width="wrap_content"
+        android:layout_height="54dp"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginStart="150dp"
+        android:layout_marginLeft="150dp"
+        android:layout_marginTop="150dp"
+        android:text="أدخل مساحة قسيمتك"
+        android:textColor="#0909A8"
+        android:textSize="32sp" />
+
+    <EditText
+        android:id="@+id/SpaceEditText"
+        android:layout_width="365dp"
+        android:layout_height="55dp"
+        android:layout_marginLeft="70dp"
+        android:layout_marginTop="210dp"
+        android:background="@drawable/graybutton"
+        android:hint="    مساحة القسيمه"
+        android:paddingLeft="150dp"
+        android:textColor="#919191"
+        android:textSize="26sp" />
+
+    <TextView
+        android:id="@+id/numbersOfFlores"
+        android:layout_width="400dp"
+        android:layout_height="61dp"
+        android:layout_marginLeft="150dp"
+        android:layout_marginTop="300dp"
+        android:text=" أكتب عدد الأدوار"
+        android:textColor="#0909A8"
+        android:textSize="32sp" />
+
+    <EditText
+        android:id="@+id/FloarsEditText"
+        android:layout_width="365dp"
+        android:layout_height="55dp"
+        android:layout_marginLeft="70dp"
+        android:layout_marginTop="360dp"
+        android:background="@drawable/graybutton"
+        android:hint="    عدد الأدوار"
+        android:paddingLeft="160dp"
+        android:textColor="#919191"
+        android:textSize="26sp" />
+
+    <Button
+        android:id="@+id/button"
+        android:layout_width="148dp"
+        android:layout_height="77dp"
+        android:layout_marginLeft="130dp"
+        android:layout_marginTop="480dp"
+        android:background="@drawable/pinkbutton"
+        android:text="أحسب"
+        android:textColor="#70AA0589"
+        android:textSize="26dp" />
+
+
+    <RadioGroup
+        android:layout_width="389dp"
+        android:layout_height="wrap_content">
+
+        <RadioButton
+            android:id="@+id/radioButton"
+            android:layout_width="169dp"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="210dp"
+            android:layout_marginTop="430dp"
+            android:text="يوجد سرداب"
+            android:textColor="@color/colorPrimaryDark"
+            android:textSize="25sp" />
+    </RadioGroup>
+</RelativeLayout>
